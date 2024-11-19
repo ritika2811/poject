@@ -1,0 +1,133 @@
+<html>
+<head>
+    <title>Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* background-color: #fff; */
+            background-color:#e8acac;
+            background-image: url('/pexels-asadphoto-169211.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            color: red;
+            font-size: 36px;
+            margin-top: 20px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .service-card {
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 200px;
+            padding: 20px;
+            text-align: left;
+            position: relative;
+        }
+        .service-card img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .service-card i {
+            font-size: 40px;
+            color: #ff5e5e;
+        }
+        .service-card h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .service-card p {
+            font-size: 14px;
+            color: #666;
+        }
+        .service-card .bottom-border {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 30px;
+            background: url('https://placehold.co/200x30') no-repeat center center;
+            background-size: cover;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .home-button {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #ff5e5e;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .home-button:hover {
+            background-color: #ff4040;
+        }
+    </style>
+</head>
+<body>
+    <h1>Service</h1>
+    <div class="services">
+        <div class="service-card">
+            <img src="/Bride image.webp" alt="Beauty & Makeup">
+            <i class="fas fa-paint-brush"></i>
+            <h2>Beauty & Makeup</h2>
+            <p>Lorem Ipsum Dolor Sit Amet, At Mei Doloe</p>
+            <div class="bottom-border"></div>
+        </div>
+        <div class="service-card">
+            <img src="/flower img.jpg" alt="Wedding Flowers">
+            <i class="fas fa-leaf"></i>
+            <h2>Wedding Flowers</h2>
+            <p>Lorem Ipsum Dolor Sit Amet, At Mei Doloe</p>
+            <div class="bottom-border"></div>
+        </div>
+        <div class="service-card">
+            <img src="/wedding cake.jpg" alt="Wedding Cake">
+            <i class="fas fa-birthday-cake"></i>
+            <h2>Wedding Cake</h2>
+            <p>Lorem Ipsum Dolor Sit Amet, At Mei Doloe</p>
+            <div class="bottom-border"></div>
+        </div>
+        <div class="service-card">
+            <img src="/music band.jpg" alt="Music Band">
+            <i class="fas fa-music"></i>
+            <h2>Music Band</h2>
+            <p>Lorem Ipsum Dolor Sit Amet, At Mei Doloe</p>
+            <div class="bottom-border"></div>
+        </div>
+        <div class="service-card">
+            <img src="/catering.jpg" alt="Catering">
+            <i class="fas fa-utensils"></i>
+            <h2>Catering</h2>
+            <p>Lorem Ipsum Dolor Sit Amet, At Mei Doloe</p>
+            <div class="bottom-border"></div>
+        </div>
+    </div>
+    <button class="home-button" onclick="window.location.href='/index.html';">Back to Home</button>
+</body>
+</html>
+
+
+
